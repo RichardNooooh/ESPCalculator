@@ -1,0 +1,13 @@
+### ESP-IDF ###
+build/
+sdkconfig
+sdkconfig.old
+
+### Eclipse ###
+.settings/
+.project
+.cproject
+
+### VSCode ###
+.vscode/
+workspace.code-workspace
