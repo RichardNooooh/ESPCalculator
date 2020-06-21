@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "hello-world1.h"
 #include "hello-world2.h"
+#include "input.h"
 
 //#include "freertos/FreeRTOS.h"
 //#include "freertos/task.h"
@@ -16,5 +17,6 @@ void app_main() {
 	hello1();
 	hello2();
 
+	setup_gpio_configs();
 	fflush(stdout);
 }
